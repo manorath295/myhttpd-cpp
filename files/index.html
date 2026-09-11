@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>myhttpd v2.0</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;margin:0;padding:48px;max-width:780px;margin:auto}
+h1{color:#f97316;font-size:42px;margin-bottom:6px}
+p{color:#94a3b8;line-height:1.6}
+.card{background:#1e293b;padding:24px;border-radius:12px;margin:18px 0}
+a{color:#38bdf8;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:22px}
+li{padding:4px 0}
+</style></head>
+<body>
+<h1>myhttpd v2.0</h1>
+<p>A multithreaded HTTP web server written in modern C++17. Designed for the Autodesk FY28 IND Internship Program application.</p>
+<div class="card">
+<h2>Sample files</h2>
+<ul>
+<li><a href="/sample.html">sample.html</a> &mdash; small HTML</li>
+<li><a href="/2.html">2.html</a> &mdash; HTML document</li>
+<li><a href="/page5.html">page5.html</a> &mdash; HTML document</li>
+<li><a href="/small.text">small.text</a> &mdash; plain text</li>
+<li><a href="/large.txt">large.txt</a> &mdash; larger text (good for SJF)</li>
+</ul>
+</div>
+<div class="card">
+<h2>Try it</h2>
+<ul>
+<li><a href="/does-not-exist">/does-not-exist</a> &mdash; 404 page</li>
+<li>Send a <code>HEAD /sample.html</code> with <code>curl -I</code></li>
+</ul>
+</div>
+</body></html>

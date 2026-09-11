@@ -1,0 +1,33 @@
+# CMake build directories and generated files
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Compiled programs and libraries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+
+# Runtime logs and local coverage/profiling output
+*.log
+*.prof
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache files
+__pycache__/
+*.pyc
