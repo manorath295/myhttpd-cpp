@@ -321,3 +321,13 @@ open Internet without further work.
 
 For the Autodesk FY28 IND Internship Program submission. Use freely for
 educational purposes.
+
+## Quick build check
+
+To verify the project builds and its unit tests pass, run:
+
+```sh
+cmake -S . -B build
+cmake --build build
+ctest --test-dir build --output-on-failure
+```
